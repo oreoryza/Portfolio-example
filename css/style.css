@@ -1,0 +1,97 @@
+/* GENERAL */
+* {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+    padding: 15px 0px 15px 0px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    padding: 10px 0px 10px 0px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+
+/* HEADER */
+header {
+    margin: 0;
+    background-color: #4caf50;
+    text-align: center;
+    border-bottom: 5px solid #388e3c;
+    padding: 50px 30px 50px 30px;
+    color: white;
+    line-height: 30px;
+}
+
+.developer-img {
+    width: 150px;
+    padding: 10px;
+}
+
+
+/* ABOUT ME */
+.about-me {
+    margin: 0;
+    background-color: #F0F0F0;
+    padding: 30px;
+}
+
+.card-container {
+    margin: auto;
+    padding: 20px;
+    width: 70%;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 7px;
+}
+
+
+/* PORTFOLIO */
+.portfolio {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    padding: 30px;
+    text-align: center;
+}
+
+.port-card-container {
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 20px;
+    width: 70%;
+    background-color: white;
+    text-align: left;
+    line-height: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 7px;
+}
+
+.port-card-container h3, p {
+    margin: 0;
+}
+
+.programming-img {
+    margin: 0;
+    width: 100%;
+}
+
+
+/* FOOTER */
+footer {
+    margin: 0;
+    bottom: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
